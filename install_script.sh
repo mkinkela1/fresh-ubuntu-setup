@@ -46,3 +46,7 @@ wget https://github.com/Mastermindzh/tidal-hifi/releases/download/4.1.0/tidal-hi
 sudo apt install ./tidal-hifi_4.1.0_amd64.deb
 rm ./tidal-hifi_4.1.0_amd64.deb 
 
+# Setup zsh
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+
