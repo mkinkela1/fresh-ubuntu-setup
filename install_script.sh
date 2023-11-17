@@ -49,4 +49,11 @@ rm ./tidal-hifi_4.1.0_amd64.deb
 # Setup zsh
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-history-substring-search.git ~/.oh-my-zsh/custom/plugins/zsh-history-substring-search
 
+# Setup github cli
+brew install gh	
+
+# Install the best package ever => TheFuck
+brew install thefuck
+echo 'eval $(thefuck --alias)' >> ~./zshrc
