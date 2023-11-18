@@ -6,7 +6,7 @@ sudo apt-get install build-essential procps curl file git
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 # Set Path of HomeBrew
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zshrc
+echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> ~/.zshrc
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # Install Chrome
@@ -34,7 +34,9 @@ sudo snap install code-insiders --classic
 
 # Install nvm
 git clone https://github.com/nvm-sh/nvm.git .nvm
-echo 'source ~/.nvm/nvm.sh' >> ~/.zshrc
+echo 'export NVM_DIR="$HOME/.nvm"' >> ~/.zshrc
+echo '[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nsv.sh"' >> ~/.zshrc
+echo '[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"' >> ~/.zshrc
 
 # Install Viber
 wget https://download.cdn.viber.com/cdn/desktop/Linux/viber.deb
