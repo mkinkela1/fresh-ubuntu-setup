@@ -9,6 +9,7 @@
 `./install_script`
 
 next steps:
+- add `plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-history-substring-search)` to .zshrc
 - setup gpg key
 - setup personal access token
 - cache credentials
