@@ -1,12 +1,16 @@
 # Fresh Ubuntu Setup
 
-`git clone https://github.com/mkinkela1/fresh-ubuntu-setup.git`
+`git clone https://github.com/mkinkela1/setup.git`
 
-`cd fresh-ubuntu-setup`
+`cd setup`
 
+For ubuntu:
 `chmod +x install_script.sh`
+`./install_script.sh`
 
-`./install_script`
+For MacOS:
+`chmod +x install_script_mac.sh`
+`./install_script_mac.sh`
 
 next steps:
 - add `plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-history-substring-search)` to .zshrc
