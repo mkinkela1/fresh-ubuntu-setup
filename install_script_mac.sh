@@ -60,5 +60,7 @@ brew install --cask viber
 # Install Tidal
 brew install --cask tidal
 
+# Install AlDente
+brew install --cask aldente
 
 
