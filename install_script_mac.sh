@@ -62,5 +62,6 @@ brew install --cask aldente
 # Install Neovim
 brew install neovim
 
-
+# Install MonitorControl
+brew install --cask monitorcontrol
 
